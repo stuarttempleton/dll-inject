@@ -10,13 +10,13 @@ DWORD WINAPI MainThread(LPVOID param)
     while (true)
     {
         //TODO: Add injected code here. kinda.
-        /*
+        
         // OnKeyPress type thing...
         if (GetAsyncKeyState(VK_F6) & 0x80000)
         {
             MessageBoxA(NULL,"F6 pressed!","Key Pressed!",MB_OK);
         }
-        */
+        
         Sleep(100);
     }
     return 0;
